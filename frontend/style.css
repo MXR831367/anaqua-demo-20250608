@@ -1,0 +1,63 @@
+:root {
+  --primarycolor: #FFFFFF;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-start: 0;
+  /* margin-block-end: 0; */
+}
+
+body {
+  margin: 0;
+  background-color: var(--primarycolor);
+}
+
+.splash {
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  height: 100svh;
+  width: 100vw;
+  width: 100svw;
+}
+
+.hy-logo {
+  width: 50vw;
+  max-height: 32rem;
+}
+
+.countertext {
+  color: black;
+  position: absolute;
+  bottom: 0.25rem;
+  right: 1rem;
+}
